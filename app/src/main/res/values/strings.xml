@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FoodViewBD</string>
+    <string-array name="search_array">
+        <item>Restaurant</item>
+        <item>Food Item</item>
+        <item>Location</item>
+        <item>Food Type</item>
+    </string-array>
+    <string name="search_prompt">Search By:</string>
 </resources>

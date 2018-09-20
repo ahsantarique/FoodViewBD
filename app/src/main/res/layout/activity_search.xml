@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background = "@drawable/blue">
+
+    <TextView
+        android:paddingTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Search By:"
+        android:id="@+id/textView2" />
+
+    <Spinner
+        android:padding="46dp"
+        android:id="@+id/dropDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/search_array"
+        android:prompt="@string/search_prompt"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchtext"
+        android:layout_weight="0.23" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/searchbtn"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
